@@ -47,6 +47,8 @@ def test_motor():
 
     sleep(2)
 
+    dc_motor.set_motor_speed(0)
+
 
 def main():
     # Instantiate and initialize the LCD driver
